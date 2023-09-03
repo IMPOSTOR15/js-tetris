@@ -20,7 +20,7 @@ function arenaSweep() {
         arena.unshift(row);
         ++y;
 
-        score += 10 * level; // Вы можете настроить этот множитель на ваше усмотрение
+        score += 10 * level;
         
     }
 }
@@ -133,7 +133,7 @@ function draw() {
 }
 
 function rotate(matrix, dir) {
-    // Транспонирование
+    // Транспонирование матрицы
     for (let y = 0; y < matrix.length; ++y) {
         for (let x = 0; x < y; ++x) {
             [matrix[x][y], matrix[y][x]] = [matrix[y][x], matrix[x][y]];
@@ -281,7 +281,6 @@ document.getElementById("endBtn").addEventListener("click", function() {
     gameRunning = false;
     document.getElementById("endBtn").style.display = "none";    // Скрыть кнопку "Завершить игру"
     document.getElementById("startBtn").style.display = "block"; // Показать кнопку "Начать игру"
-    // Если вы хотите добавить другую логику для завершения игры, сделайте это здесь
 });
 
 
