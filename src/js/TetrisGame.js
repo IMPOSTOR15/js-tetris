@@ -32,7 +32,7 @@ export default class TetrisGame {
         this.endBtnElement = document.getElementById("endBtn");
         this.startBtn = document.getElementById("startBtn");
         this.endScreenElement = document.getElementById("endScreen");
-        this.highScoreElement.textContent = localStorage.getItem('high-score');
+        this.highScoreElement.textContent = localStorage.getItem('high-score') || 0;
 
         this.leftBtnElemetn = document.getElementById('btnLeft');
         this.rightBtnElemetn = document.getElementById('btnRight');
