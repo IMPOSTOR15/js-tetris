@@ -64,8 +64,8 @@ export default class TetrisGame {
     }
 
     updateScore() {
-        this.scoreElement.textContent = "Score: " + this.score;
-        this.levelElement.textContent = "Level: " + this.level;
+        this.scoreElement.textContent = "Очки: " + this.score;
+        this.levelElement.textContent = "Уровень: " + this.level;
 
         if (this.score >= this.level * 100) {
             this.level++;
@@ -188,8 +188,8 @@ export default class TetrisGame {
             
             this.gameRunning = true;
             this.startGame()
-            this.scoreElement.textContent = "Score: " + this.score;
-            this.levelElement.textContent = "Level: " + this.level;
+            this.scoreElement.textContent = "Очки: " + this.score;
+            this.levelElement.textContent = "Уровень: " + this.level;
             this.endBtnElement.style.display = "block";
             this.startBtn.style.display = "none";
             this.endScreenElement.style.display = "none";
@@ -205,8 +205,8 @@ export default class TetrisGame {
             this.endScreenElement.style.display = "none";
             this.gameRunning = true;
             this.endBtnElement.style.display = "none";
-            this.scoreElement.textContent = "Score: " + this.score;
-            this.levelElement.textContent = "Level: " + this.level;
+            this.scoreElement.textContent = "Очки: " + this.score;
+            this.levelElement.textContent = "Уровень: " + this.level;
             this.startGame()
         });
     }

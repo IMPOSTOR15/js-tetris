@@ -1,6 +1,6 @@
 canvas {
     border: 1px solid black;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     display: block;
     border: 2px solid yellow;
     border-radius: 5px;
@@ -12,14 +12,14 @@ body {
 .root {
     background-color: rgb(22, 22, 22);
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .highscore-header {
-    margin: 10px;
+    margin: 5px;
 }
 .scoreBoard {
     display: flex;
@@ -29,7 +29,7 @@ body {
     font-size: 25px;
 }
 .btn-row {
-    margin: 10px;
+    margin: 5px;
 }
 .gameover {
     display: none;
