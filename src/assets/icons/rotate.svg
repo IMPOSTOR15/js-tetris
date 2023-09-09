@@ -1,0 +1,11 @@
+<svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Layer 1">
+    <linearGradient id="New_Gradient_Swatch" gradientUnits="userSpaceOnUse" x1="34.03" x2="76.75" y1="12.61" y2="61.75">
+        <stop offset="0" stop-color="#3fa5f5"></stop>
+        <stop offset="1" stop-color="#3a00e2"></stop>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch-2" x1="23.18" x2="66.04" xlink:href="#New_Gradient_Swatch" y1="38.02" y2="87.34"></linearGradient>
+        <path d="m99.12 36.58a3 3 0 0 0 -4.24 0l-6.71 6.7a38.74 38.74 0 0 0 -74.79-5.79 3 3 0 0 0 5.68 1.94 32.68 32.68 0 0 1 30.94-22.12c15.65 0 28.4 10.31 31.79 24.55l-5.29-5.28a3 3 0 1 0 -4.24 4.24l11.31 11.31a3 3 0 0 0 4.24 0l11.31-11.31a3 3 0 0 0 0-4.24z" fill="url(#New_Gradient_Swatch)" style="fill: rgb(255, 221, 0);">
+        </path>
+        <path d="m84.75 58.7a3 3 0 0 0 -3.81 1.87 32.67 32.67 0 0 1 -30.94 22.12c-15.78 0-28.62-10.49-31.88-24.93l5.38 5.38a3 3 0 0 0 2.12.88 3 3 0 0 0 2.12-.88 3 3 0 0 0 0-4.24l-11.31-11.31a3 3 0 0 0 -4.24 0l-11.31 11.31a3 3 0 0 0 4.24 4.24l6.66-6.66a38.74 38.74 0 0 0 74.84 6 3 3 0 0 0 -1.87-3.78z" fill="url(#New_Gradient_Swatch-2)" style="fill: rgb(255, 221, 0);">
+        </path>
+</svg>
