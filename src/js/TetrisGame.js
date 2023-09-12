@@ -66,10 +66,13 @@ export default class TetrisGame {
     updateScore() {
         this.scoreElement.textContent = "Очки: " + this.score;
         this.levelElement.textContent = "Уровень: " + this.level;
-
         if (this.score >= this.level * 100) {
+            
             this.level++;
-            this.dropInterval = this.BASE_DROP_INTERVAL - (50 * this.level);
+            if (this.level <= 18) {
+                this.dropInterval = this.BASE_DROP_INTERVAL - (50 * this.level);
+            }
+            
             if (this.dropInterval < 100) this.dropInterval = 100;
         }
     }

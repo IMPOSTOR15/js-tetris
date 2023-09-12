@@ -14,10 +14,7 @@
             <div id="level">Уровень: 1</div>
             <button class="audio-btn audio-btn_muted" id="audioControlBtn"></button>
         </div>
-        <div class="btn-row">
-            <button id="startBtn" class="main-btn" style="display: block;" >Начать игру</button>
-            <button id="endBtn" class="main-btn" style="display: none;" >Завершить игру</button>
-        </div>
+        
         <canvas id="tetris" width="300" height="600"></canvas>
         
         <div id="endScreen" class="gameover">
@@ -26,11 +23,14 @@
         </div>
         <div class="controller">
             <button id="btnLeft" class="controll-button controll-button_left"></button>
-            <button id="btnRotate" class="rotate-button"></button>
-            <button id="btnRight" class="controll-button controll-button_right"></button>
-        </div>
-        <div>
             <button id="btnBottom" class="controll-button controll-button_down"></button>
+            <button id="btnRight" class="controll-button controll-button_right"></button>
+            <button id="btnRotate" class="rotate-button"></button>
+            
+        </div>
+        <div class="btn-row">
+            <button id="startBtn" class="main-btn" style="display: block;" >Начать игру</button>
+            <button id="endBtn" class="main-btn" style="display: none;" >Завершить игру</button>
         </div>
     </div>
     <audio id="myAudio" loop>
