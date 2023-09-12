@@ -69,7 +69,7 @@ export default class TetrisGame {
         if (this.score >= this.level * 100) {
             
             this.level++;
-            if (this.level <= 18) {
+            if (this.level <= 16) {
                 this.dropInterval = this.BASE_DROP_INTERVAL - (50 * this.level);
             }
             
